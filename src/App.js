@@ -20,22 +20,22 @@ class App extends Component {
               It was one of the first personal computers to offer a graphical user interface (GUI) in a machine aimed at individual business users.
             </p>
           </Window>
-          <div className='mt3 ml4'>
-            <Window>
-              <WindowHeader children='About Tosh' />
-              <div className='bb pa2'>
+        </div>
+        <div className='mt3 center w-50'>
+          <Window>
+            <WindowHeader children='About Tosh' />
+            <div className='bb pa2'>
 
-              </div>
-              <div className='pa2'>
-                <div className='dt'>
-                  <div className='dtc v-mid' children='Pct Awesome (87%)' />
-                  <div className='dtc v-mid w4 pl2'>
-                    <Progress value={.87} />
-                  </div>
+            </div>
+            <div className='pa2'>
+              <div className='dt'>
+                <div className='dtc v-mid' children='Pct Awesome (87%)' />
+                <div className='dtc v-mid w4 pl2'>
+                  <Progress value={.87} />
                 </div>
               </div>
-            </Window>
-          </div>
+            </div>
+          </Window>
         </div>
       </div>
     )
