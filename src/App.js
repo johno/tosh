@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import Header from './components/Header'
 import Window, { WindowHeader } from './components/Window'
 import Progress from './components/Progress'
+import Button from './components/Button'
+import Input from './components/Input'
 
 class App extends Component {
   render () {
@@ -24,15 +26,17 @@ class App extends Component {
         <div className='mt3 center w-50'>
           <Window>
             <WindowHeader children='About Tosh' />
-            <div className='bb pa2'>
-
-            </div>
+            <div className='bb pa2'></div>
             <div className='pa2'>
-              <div className='dt'>
+              <div className='dt mb2'>
                 <div className='dtc v-mid' children='Pct Awesome (87%)' />
                 <div className='dtc v-mid w4 pl2'>
                   <Progress value={.87} />
                 </div>
+              </div>
+              <Button children='Awesome' />
+              <div className='bt mt2 pt2'>
+                <Input />
               </div>
             </div>
           </Window>
