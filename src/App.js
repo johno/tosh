@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Window, { WindowHeader } from './components/Window'
 import Progress from './components/Progress'
 import Button from './components/Button'
+import Textarea from './components/Textarea'
 import Input from './components/Input'
 
 class App extends Component {
@@ -34,9 +35,14 @@ class App extends Component {
                   <Progress value={.87} />
                 </div>
               </div>
-              <Button children='Awesome' />
               <div className='bt mt2 pt2'>
-                <Input />
+                <Input placeholder='An input' />
+                <div className='pt2'>
+                  <Textarea placeholder='A textarea' />
+                </div>
+                <div className='pt2'>
+                  <Button children='Awesome' />
+                </div>
               </div>
             </div>
           </Window>
