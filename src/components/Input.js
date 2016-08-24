@@ -1,10 +1,26 @@
 import React from 'react'
+import defaultStyle from '../../style'
 
-export default ({ children, ...otherProps }) => (
-  <input
-    className='br bb bw2 b--black pa1'
-    style={{borderLeftWidth: '1px', borderTopWidth: '1px'}}
-    {...otherProps}
-    children={children}
-  />
-)
+export default ({ style, ...otherProps }) => {
+  const { base: { borders, color, fontFamily, padding } } = defaultStyle
+
+  const inputStyle = {
+    borderStyle: borders.style,
+    borderColor: borders.color,
+    borderWidth: borders.widths[1],
+    borderLeftWidth: borders.widths[0],
+    borderTopWidth: borders.widths[0],
+    color,
+    fontFamily,
+    padding
+  }
+
+  const sx = Object.assign({}, inputStyle, style)
+
+  return (
+    <input
+      style={sx}
+      {...otherProps}
+    />
+  )
+}
