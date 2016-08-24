@@ -4,7 +4,7 @@ const color = '#222'
 const backgroundColor = '#fff'
 
 const desktop = {
-  backgroundImage: `linear-gradient(
+  background: `linear-gradient(
     to right top,
     ${backgroundColor} 33%,
     ${color} 33%,

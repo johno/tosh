@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import Desktop from './components/Desktop'
 import Header from './components/Header'
 import Window, { WindowHeader } from './components/Window'
 import Progress from './components/Progress'
@@ -10,7 +11,7 @@ import Input from './components/Input'
 class App extends Component {
   render () {
     return (
-      <div style={{minHeight: '100vw'}}>
+      <Desktop style={{minHeight: '100vw'}}>
         <Header />
         <div className='mt4 ml3 w-60'>
           <Window>
@@ -47,7 +48,7 @@ class App extends Component {
             </div>
           </Window>
         </div>
-      </div>
+      </Desktop>
     )
   }
 }
