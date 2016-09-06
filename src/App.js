@@ -17,7 +17,7 @@ class App extends Component {
       <div style={{fontFamily}} className='ph2 pb3 pb4-m pb6-l'>
         <div className='bb bw2'>
           <div className='measure-wide center pv3 pv4-m pv5-l'>
-            <h1 className='f-subheadline-ns'>Tosh</h1>
+            <h1 className='f-subheadline-ns'>⊡ tosh</h1>
             <p className='lh-copy measure mid-gray pb2 pb4-m pb4-l'>
               The Lisa is a personal computer introduced by Apple Computer Inc. on January 19, 1983.
               It was one of the first personal computers to offer a graphical user interface (GUI) in a machine aimed at individual business users. <br /><br />
