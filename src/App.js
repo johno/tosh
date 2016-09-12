@@ -25,7 +25,7 @@ class App extends Component {
             </p>
           </div>
         </div>
-        <div className='measure-wide center'>
+        <div className='measure-wide center pt3 pt4-m pt5-l'>
           <h4>Desktop</h4>
           <p className='lh-copy measure mid-gray'>
             The Desktop component provides a retro background.
@@ -45,6 +45,12 @@ class App extends Component {
               Wrap content into logical parts with the Window component.
             </p>
           </Window>
+          <h4>Progress Bar</h4>
+          <p className='lh-copy measure mid-gray'>
+            Track progress and display it to the user.
+          </p>
+          <pre>&lt;Progress value=.8 /&gt;</pre>
+          <Progress value={.8} />
         </div>
       </div>
     )
