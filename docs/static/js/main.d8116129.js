@@ -11668,7 +11668,7 @@
 	    _react2.default.createElement(
 	      'h1',
 	      { className: 'f-subheadline-ns' },
-	      'Tosh'
+	      '⊡ tosh'
 	    ),
 	    _react2.default.createElement(
 	      'p',
@@ -11688,7 +11688,7 @@
 	
 	var _ref2 = _react2.default.createElement(
 	  'div',
-	  { className: 'measure-wide center' },
+	  { className: 'measure-wide center pt3 pt4-m pt5-l' },
 	  _react2.default.createElement(
 	    'h4',
 	    null,
@@ -11729,7 +11729,23 @@
 	      { className: 'lh-copy measure-narrow mid-gray ph2' },
 	      'Wrap content into logical parts with the Window component.'
 	    )
-	  )
+	  ),
+	  _react2.default.createElement(
+	    'h4',
+	    null,
+	    'Progress Bar'
+	  ),
+	  _react2.default.createElement(
+	    'p',
+	    { className: 'lh-copy measure mid-gray' },
+	    'Track progress and display it to the user.'
+	  ),
+	  _react2.default.createElement(
+	    'pre',
+	    null,
+	    '<Progress value=.8 />'
+	  ),
+	  _react2.default.createElement(_Progress2.default, { value: .8 })
 	);
 	
 	var App = function (_Component) {
@@ -22042,4 +22058,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=main.3d983d09.js.map
+//# sourceMappingURL=main.d8116129.js.map
